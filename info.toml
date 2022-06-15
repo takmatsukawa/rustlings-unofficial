@@ -10,8 +10,9 @@ Remove the I AM NOT DONE comment to move on to the next exercise."""
 # DESIGN PATTERNS
 
 [[exercises]]
-name = "design pattern1"
-path = "exercises/design-pattern/use-borrowed-types-for-arguments.rs"
+name = "design_pattern1"
+path = "exercises/design_patterns/design_pattern1.rs"
 mode = "compile"
 hint = """
-No hint. Good luck!"""
+Use borrowed types for arguments.
+https://rust-unofficial.github.io/patterns/idioms/coercion-arguments.html"""
