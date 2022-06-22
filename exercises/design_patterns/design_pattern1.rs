@@ -19,13 +19,14 @@ fn three_vowels(word: &String) -> bool {
     false
 }
 
+// Don't change anything below this line.
+
 fn main() {
     let ferris = "Ferris".to_string();
     let curious = "Curious".to_string();
     println!("{}: {}", ferris, three_vowels(&ferris));
     println!("{}: {}", curious, three_vowels(&curious));
 
-    // This works fine, but the following two lines would fail:
     println!("Ferris: {}", three_vowels("Ferris"));
     println!("Curious: {}", three_vowels("Curious"));
 
